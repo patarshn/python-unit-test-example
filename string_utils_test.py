@@ -12,9 +12,9 @@ class StringUtilsTest(unittest.TestCase):
         result = self.stringUtils.toUpper()
         self.assertEqual(result, "HELLO WORLD")
 
-    def test_toToggle(self):
+    def test_toAlternate(self):
         self.stringUtils.string = "hello world"
-        result = self.stringUtils.toToggle()
+        result = self.stringUtils.toAlternate()
         self.assertEqual(result, "hElLo wOrLd")
 
     def test_generateCSV(self):

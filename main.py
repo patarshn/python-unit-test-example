@@ -18,7 +18,7 @@ if __name__ == "__main__":
     print(string.toUpper())
 
     # Get string to toggle case
-    print(string.toToggle())
+    print(string.toAlternate())
 
     # Create CSV
     csv_file = string.generateCSV()

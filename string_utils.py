@@ -7,7 +7,7 @@ class StringUtils:
     def toUpper(self):
         return self.string.upper()
 
-    def toToggle(self):
+    def toAlternate(self):
         result = ""
         for i, char in enumerate(self.string):
             if i % 2 == 0:
