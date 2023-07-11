@@ -22,4 +22,4 @@ if __name__ == "__main__":
 
     # Create CSV
     csv_file = string.generateCSV()
-    print("CSV created:", csv_file)
+    print("CSV created!")
